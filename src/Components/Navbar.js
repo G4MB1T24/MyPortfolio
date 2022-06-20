@@ -1,6 +1,9 @@
 import React, { Component } from "react";
-import gitlogo from "./github.svg"
+import gitlogo from "./assets/github.svg";
 import PropTypes from 'prop-types'
+import { Link } from "react-scroll"
+
+
 export default class Navbar extends Component {
     static defaultProps = {
         github: "https://github.com",
@@ -8,7 +11,7 @@ export default class Navbar extends Component {
     
     static propTypes = {
         github: PropTypes.string,
-    }    
+  }    
     render() {
     return (
       <>
@@ -33,11 +36,11 @@ export default class Navbar extends Component {
               <span className="ml-3 text-xl">Gambit</span>
             </a>
             <nav className="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
+              <Link to="project-s" spy={true} smooth={true} offset={500} duration={400}  id="project-s" className="mr-5 hover:text-white hover:border-b-2 border-white">
+                Projects
+              </Link>
               <a href="/" className="mr-5 hover:text-white hover:border-b-2 border-white">
-                First Link
-              </a>
-              <a href="/" className="mr-5 hover:text-white hover:border-b-2 border-white">
-                Second Link
+                Links
               </a>
               <a href="/" className="mr-5 hover:text-white hover:border-b-2 border-white">
                 Third Link
@@ -51,6 +54,7 @@ export default class Navbar extends Component {
 
           </div>
         </header>
+      <script src="/components/scroller.js"></script>
       </>
     );
   }

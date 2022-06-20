@@ -1,24 +1,30 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+import AboutMe from './Components/AboutMe';
+import MyprojectsHead from './Components/MyprojectsHead';
+import Navbar from './Components/Navbar';
+import Myprojects from './Components/Myprojects';
 
 function App() {
+  let gitrepo1 = "https://github.com/G4MB1T24/TemperatureDjango"
+  let gitrepo2 = "https://github.com/G4MB1T24/Matrimonial-DatingSite"
+  let proj1site = "https://temperature-django.herokuapp.com/"
+  let proj2site = "https://matridatingsite.herokuapp.com/"
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div className="App">
+      <Navbar github="https://github.com/G4MB1T24"></Navbar>
+      </div>
+      <div className=''>
+      <AboutMe></AboutMe>
+      </div>
+      <div>
+        <MyprojectsHead></MyprojectsHead>
+      </div>
+      <div>
+        <Myprojects proj1gitrepo={gitrepo1} proj1site={proj1site} proj2gitrepo={gitrepo2} proj2site={proj2site}></Myprojects>
+      </div>
+    </>
   );
 }
 

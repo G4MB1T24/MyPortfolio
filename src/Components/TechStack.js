@@ -5,6 +5,7 @@ import javascriptLogo from "./assets/TechStackIcons/javascript.png";
 import reactLogo from "./assets/TechStackIcons/reactjs.png";
 import tailwindLogo from "./assets/TechStackIcons/tailwindcss.png";
 import bootstrapLogo from "./assets/TechStackIcons/bootstrap.png";
+import Toolstack from "./Toolstack";
 export default class TechStack extends Component {
   componentDidMount(){
     document.title = "Gambit -TechStack"
@@ -173,6 +174,7 @@ export default class TechStack extends Component {
                 </div>
               </div>
             </div>
+        <Toolstack></Toolstack>        
           </div>
         </section>
       </>

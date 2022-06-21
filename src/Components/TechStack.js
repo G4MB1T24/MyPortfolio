@@ -6,9 +6,13 @@ import reactLogo from "./assets/TechStackIcons/reactjs.png";
 import tailwindLogo from "./assets/TechStackIcons/tailwindcss.png";
 import bootstrapLogo from "./assets/TechStackIcons/bootstrap.png";
 export default class TechStack extends Component {
+  componentDidMount(){
+    document.title = "Gambit -TechStack"
+  }
   render() {
     return (
       <>
+        
         <section class="text-gray-400 body-font bg-gray-900">
           <div class=" container px-5 py-24 mx-auto">
             <div class=" flex flex-wrap w-full mb-0 -my-2">

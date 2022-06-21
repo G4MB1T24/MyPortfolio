@@ -2,6 +2,7 @@ import React from "react";
 import AboutMe from "./AboutMe";
 import MyprojectsHead from "./MyprojectsHead";
 import Myprojects from "./Myprojects";
+import Welcome from "./Welcome";
 
 export default function Home() {
   let gitrepo1 = "https://github.com/G4MB1T24/TemperatureDjango";
@@ -10,7 +11,9 @@ export default function Home() {
   let proj2site = "https://matridatingsite.herokuapp.com/";
   return (
     <>
-
+      <div>
+        <Welcome></Welcome>
+      </div>
       <div className="">
         <AboutMe></AboutMe>
       </div>

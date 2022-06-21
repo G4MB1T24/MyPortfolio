@@ -36,20 +36,20 @@ export default class Navbar extends Component {
               </svg>
               <span className="ml-3 text-xl">Gambit</span>
             </Link2>
-            <nav className="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
-              <Link2 to="/" className="mr-5 hover:text-white hover:border-b-2 border-white">
+            <nav className="cursor-pointer	 md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
+              <Link2 to="/" className="mr-5 hover:text-white  hover:border-b-2 hover:text-xl ease-in duration-200 border-white">
                 Home
               </Link2>
-              <Link to="project-s" spy={true} smooth={true} offset={500} duration={400}  id="project-s" className="mr-5 hover:text-white hover:border-b-2 border-white">
+              <Link to="project-s" spy={true} smooth={true} offset={-200} duration={400}  className="mr-5  hover:text-white hover:border-b-2 border-white">
                 Projects
               </Link>
-              <Link2 to="/links" className="mr-5 hover:text-white hover:border-b-2 border-white">
-                Links
+              <Link2 to="/links" className="mr-5 hover:text-white hover:border-b-2 border-white hover:text-xl ease-in duration-200">
+                Connections
               </Link2>
-              <a href="/" className="mr-5 hover:text-white hover:border-b-2 border-white">
+              <a href="/" className="mr-5 hover:text-white hover:border-b-2 border-white hover:text-xl ease-in duration-200">
                 Third Link
               </a>
-              <a href="/" className="mr-5 hover:text-white hover:border-b-2 border-white">
+              <a href="/" className="mr-5 hover:text-white hover:border-b-2 border-white hover:text-xl ease-in duration-200">
                 Fourth Link
               </a>
             </nav>
@@ -58,7 +58,8 @@ export default class Navbar extends Component {
 
           </div>
         </header>
-      <script src="/components/scroller.js"></script>
+        <br /><br />
+
       </>
     );
   }

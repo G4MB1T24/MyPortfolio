@@ -46,9 +46,9 @@ export default class Navbar extends Component {
               <Link2 to="/links" className="mr-5 hover:text-white hover:border-b-2 border-white hover:text-xl ease-in duration-200">
                 Connections
               </Link2>
-              <a href="/" className="mr-5 hover:text-white hover:border-b-2 border-white hover:text-xl ease-in duration-200">
-                Third Link
-              </a>
+              <Link2 to="tech" className="mr-5 hover:text-white hover:border-b-2 border-white hover:text-xl ease-in duration-200">
+                Tech Stack
+              </Link2>
               <a href="/" className="mr-5 hover:text-white hover:border-b-2 border-white hover:text-xl ease-in duration-200">
                 Fourth Link
               </a>

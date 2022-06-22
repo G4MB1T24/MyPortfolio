@@ -1,3 +1,6 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ab2e2944-8fe3-4605-9e10-d02ff1730b1b/deploy-status)](https://app.netlify.com/sites/gambit24/deploys)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

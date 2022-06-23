@@ -9,9 +9,9 @@ export default class Links extends Component {
   render() {
     return (
       <>
-        <div className="  min-h-screen text-gray-400 bg-gray-900 body-font">
+        {/* <div className="  min-h-screen text-gray-400 bg-gray-900 body-font"> */}
 
-        <section class="text-gray-400 bg-gray-900 body-font ">
+        <section class="h-screen text-gray-400 bg-gray-900 body-font ">
           <div class="container px-5 py-24 mx-auto ">
             <div class="flex flex-col text-center w-full mb-20 ">
               <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-white ">
@@ -113,7 +113,7 @@ export default class Links extends Component {
           </div>
           </section>
 
-        </div>
+        {/* </div> */}
       </>
     );
   }

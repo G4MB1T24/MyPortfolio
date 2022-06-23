@@ -71,8 +71,6 @@ export default class Toolstack extends Component {
                   </h3>
                 </div>
               </div>
-            </div>
-              <div className="flex flex-row justify-center">
                 <div class=" xl:w-1/4 md:w-1/2 p-4 ">
                   <div class="bg-gray-800 bg-opacity-40 p-6 rounded-lg transition ease-in-out hover:scale-110 hover:bg-blue-400 duration-300">
                     <img
@@ -85,8 +83,9 @@ export default class Toolstack extends Component {
                     </h3>
                   </div>
                 </div>
+            </div>
+
               </div>
-          </div>
         </section>
       </>
     );

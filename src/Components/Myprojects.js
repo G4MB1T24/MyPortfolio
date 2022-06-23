@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
 import LoweProjects from "./LoweProjects";
-import proj1img from "./assets/proj1.png";
-import proj2img from "./assets/proj2.png";
+import proj1img from "./assets/project.png";
+
 
 
 export default class Myprojects extends Component {
@@ -91,7 +91,7 @@ export default class Myprojects extends Component {
               <img
                 className="object-cover object-center rounded"
                 alt="hero"
-                src={proj2img}
+                src={proj1img}
               />
             </div>
           </div>

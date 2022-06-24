@@ -15,7 +15,7 @@ export default class TechStack extends Component {
       <>
         
         <section class="text-gray-400 body-font bg-gray-900">
-          <div class=" container px-5 py-24 mx-auto">
+          <div class=" container px-5  mx-auto md:py-24">
             <div class=" flex flex-wrap w-full mb-0 -my-2">
               <div class="lg:w-1/2 w-full mb-6 lg:mb-0">
                 <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-white">

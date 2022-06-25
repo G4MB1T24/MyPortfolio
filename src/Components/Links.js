@@ -54,7 +54,7 @@ export default class Links extends Component {
                   />
                   <div class="flex-grow">
                     <h2 class="text-white title-font font-medium">
-                      <a target="_blank" rel="noreferrer" href="https://www.reddit.com/user/Gambit2422">
+                      <a target="_blank" rel="noreferrer" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
                         {" "}
                         Reddit
                       </a>

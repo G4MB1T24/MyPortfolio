@@ -115,7 +115,7 @@ export default class LoweProjects extends Component {
                   </div>
                   <div className="flex-grow">
                     <p className="leading-relaxed text-base">
-                      Thsi Portfolio built using React , Tailwind css.
+                      This Portfolio built using React , Tailwind css.
                     </p>
                     <a
                       href="/"

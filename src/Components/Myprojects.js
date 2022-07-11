@@ -42,7 +42,7 @@ export default class Myprojects extends Component {
                 Heroku,
               </p>
               <div className="flex justify-center">
-                <button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+                <button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg duration-200">
                   <a
                     href={this.props.proj1site}
                     target="_blank"
@@ -51,7 +51,7 @@ export default class Myprojects extends Component {
                     Visit Site
                   </a>
                 </button>
-                <button className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
+                <button className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg duration-200">
                   <a
                     href={this.props.proj1gitrepo}
                     target="_blank"
@@ -78,11 +78,11 @@ export default class Myprojects extends Component {
                 <h2 classNameName="text-2xl ">Work In Progress.</h2>
               </p>
               <div className="flex justify-center">
-                <button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+                <button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg duration-200">
                 <a href={this.props.proj2site} target="_blank" rel="noreferrer">Visit Site</a>
                   
                 </button>
-                <button className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
+                <button className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg duration-200">
                   <a href={this.props.proj2gitrepo} target="_blank" rel="noreferrer">Github</a>
                 </button>
               </div>

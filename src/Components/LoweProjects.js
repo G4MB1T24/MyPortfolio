@@ -12,8 +12,8 @@ export default class LoweProjects extends Component {
               </h2>
             </div>
             <div className="flex flex-wrap -m-4">
-              <div className="p-4 md:w-1/3">
-                <div className="flex rounded-lg h-full bg-gray-800 bg-opacity-60 p-8 flex-col">
+              <div className="p-4 md:w-1/3 ">
+                <div className="flex rounded-lg h-full bg-gray-800 bg-opacity-60 p-8 flex-col hover:-translate-y-4 ease-out duration-300 ">
                   <div className="flex items-center mb-3">
                     <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-indigo-500 text-white flex-shrink-0">
                       <svg
@@ -32,7 +32,7 @@ export default class LoweProjects extends Component {
                       TextUtils -React
                     </h2>
                   </div>
-                  <div className="flex-grow">
+                  <div className="flex-grow 	">
                     <p className="leading-relaxed text-base">
                       A simple Text Utility app I built while learning React.
                     </p>
@@ -56,8 +56,8 @@ export default class LoweProjects extends Component {
                   </div>
                 </div>
               </div>
-              <div className="p-4 md:w-1/3">
-                <div className="flex rounded-lg h-full bg-gray-800 bg-opacity-60 p-8 flex-col">
+              <div className="p-4 md:w-1/3 ">
+                <div className="flex rounded-lg h-full bg-gray-800 bg-opacity-60 p-8 flex-col hover:-translate-y-4 ease-out duration-300">
                   <div className="flex items-center mb-3">
                     <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-indigo-500 text-white flex-shrink-0">
                       <img src={discord} alt="" />
@@ -91,8 +91,8 @@ export default class LoweProjects extends Component {
                   </div>
                 </div>
               </div>
-              <div className="p-4 md:w-1/3">
-                <div className="flex rounded-lg h-full bg-gray-800 bg-opacity-60 p-8 flex-col">
+              <div className="p-4 md:w-1/3 ">
+                <div className="flex rounded-lg h-full bg-gray-800 bg-opacity-60 p-8 flex-col hover:-translate-y-4 ease-in-out duration-300">
                   <div className="flex items-center mb-3">
                     <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-indigo-500 text-white flex-shrink-0">
                       <svg

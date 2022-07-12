@@ -75,7 +75,8 @@ export default class Myprojects extends Component {
                 A Dating/Matrimonial WebSite built using Django (Backend),
                 <br />
                 Bootstrap (Frontend) , Hosted on Heroku,
-                <h2 classNameName="text-2xl ">Work In Progress.</h2>
+                <br />
+                Work In Progress.
               </p>
               <div className="flex justify-center">
                 <button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg duration-200">

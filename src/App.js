@@ -11,7 +11,7 @@ function App() {
     <>
       <Router>
         <div className="App">
-          <Navbar github="https://github.com/G4MB1T24"></Navbar>
+          <Navbar ></Navbar>
         </div>
         <Routes>
           <Route path="/" element={<Home></Home>} />

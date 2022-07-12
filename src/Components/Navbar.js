@@ -7,7 +7,7 @@ export default function Navbar() {
   let location = useLocation();
 
   useEffect(() => {
-    console.log(location);
+
   }, [location]);
   return (
     <>
